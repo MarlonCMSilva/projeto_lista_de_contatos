@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #fbeed3;
+}
+
+header{
+    display: flex;
+    margin: 16px 16px 32px;
+    color: #429398;
+}
+
+header img{
+    display: block;
+    width: 100%;
+}
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.menu-adicionar{
+    margin: 16px 16px 32px;
+    align-items: center;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    margin:0 auto;
+}
+
+
+form{
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+form button{
+    background-color: #429398;
+    color: #6b5d4d;
+    margin-left: 12px;
+    border-radius: 2px ;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+
+form input:hover{
+    border: 2px solid #429398
+}
+
+form input{
+    font-size: 24px;
+    border-radius: 8px;
+    background-color: #b0a18f;
+    border: none;
+    border-bottom: 2px solid #429398;
+    padding: 8px;
+}
+
+.contatos{
+    align-items: flex-start;
+}
+
+table{
+    align-items: start;
+    width: 100%;
+}
+
+table th{
+    color: #6b5d4d;
+    border-bottom: 2px solid #429398;
+    padding: 16px;
+    font-size: 24 px;
+    font-weight: bold;
+    
+
+}
+
+table td{
+    padding: 16px 0;
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 1px solid #429398;
+}
+
+#nome-contato{
+    background-color: #429398;
+    border-radius: 12px;
+    margin-left: 10px;
+}
+
+#numero-contato{
+    background-color: #429398;
+    border-radius: 12px;
+}
+
+table td img{
+    height: 30px ;
+}
+
+
+.tipo-contato{
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#nota-atividade{
+    margin-left: 12px;
+}
